@@ -1,0 +1,9 @@
+body, html {
+    margin: 0;
+}
+
+.bg {
+    background: url("images/bg.png") no-repeat;
+    background-size: cover;
+    height: 3400px;
+}
