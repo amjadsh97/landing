@@ -1,18 +1,23 @@
+.section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
 .branding {
     @include flexItemsCenter(row);
 }
 
-.branding--side {
-    flex: 0.7;
+.branding__side {
+    flex: 0.8;
 }
 
-.branding--side h2 {
+.branding__side h2 {
     font-size: 40px;
     font-weight: 700;
 }
 
-.branding--side p {
-    color: #777777;
+.branding__side p {
+    color: #B1AAAA;
     font-size: 14px;
     margin: 30px 0;
     line-height: 1.2;
@@ -50,5 +55,37 @@
 
 .branding img {
     display: block;
-    max-width: 600px;
+    max-width: 630px;
 }
+
+.section__title {
+    text-align: center;
+    text-transform: capitalize;
+    color: #1E1C24;
+    font-size: 30px;
+}
+
+.section__content {
+    //@include  flexItemsCenter(row);
+    //justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+
+    margin-top: 60px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section__content img {
+    display: block;
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.section__content--modifier {
+    margin-top: 100px;
+}
+
+

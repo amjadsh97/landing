@@ -1,0 +1,138 @@
+body, html {
+  margin: 0;
+  font-family: Poppins;
+}
+
+.bg {
+  background: url("images/bg.png") no-repeat;
+  background-size: cover;
+  height: 3400px;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header h1 {
+  color: #525FFB;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.header a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #525FFB;
+  border: 1px solid #525FFB;
+  border-radius: 15px;
+  padding: 8px 10px;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+.section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.branding__side {
+  flex: 0.8;
+}
+
+.branding__side h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.branding__side p {
+  color: #B1AAAA;
+  font-size: 14px;
+  margin: 30px 0;
+  line-height: 1.2;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form input {
+  display: inline-block;
+  flex: 0.5;
+  border-radius: 15px;
+  border: 1px solid #EBEBEB;
+  padding: 10px;
+  outline: none;
+}
+
+.form input::placeholder {
+  color: #1E1C24;
+  opacity: 0.36;
+}
+
+.form a {
+  display: inline-block;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: #525FFB;
+  border-radius: 15px;
+  padding: 12px 18px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.branding img {
+  display: block;
+  max-width: 630px;
+}
+
+.section__title {
+  text-align: center;
+  text-transform: capitalize;
+  color: #1E1C24;
+  font-size: 30px;
+}
+
+.section__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 100px;
+  margin-top: 60px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section__content img {
+  display: block;
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.section__content--modifier {
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
