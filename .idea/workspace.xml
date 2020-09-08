@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a227811-454b-4842-9b07-ffc1b2447a7e" name="Default Changelist" comment="" />
+    <list default="true" id="2a227811-454b-4842-9b07-ffc1b2447a7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Image 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,21 +26,32 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="SCSS File" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hCD2dAS6HWjWjTk7zSCMVLhD0f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -47,17 +70,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599505975811</updated>
-      <workItem from="1599505977376" duration="2075000" />
+      <workItem from="1599505977376" duration="6904000" />
     </task>
+    <task id="LOCAL-00001" summary="project initial setup">
+      <created>1599509134392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599509134392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="project initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="project initial setup" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="195" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599507012803">
+    <state x="458" y="195" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599549451746">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="195" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1599507012803" />
+    <state x="458" y="195" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1599549451746" />
+    <state x="335" y="35" key="CommitChangelistDialog2" timestamp="1599509134293">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="335" y="35" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599509134293" />
+    <state x="402" y="245" key="EditFileWatcherDialog" timestamp="1599549427389">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="402" y="245" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1599549427389" />
+    <state x="348" y="200" key="Vcs.Push.Dialog.v2" timestamp="1599509148372">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="348" y="200" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599509148372" />
   </component>
 </project>

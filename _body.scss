@@ -1,0 +1,54 @@
+.branding {
+    @include flexItemsCenter(row);
+}
+
+.branding--side {
+    flex: 0.7;
+}
+
+.branding--side h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.branding--side p {
+    color: #777777;
+    font-size: 14px;
+    margin: 30px 0;
+    line-height: 1.2;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.form input {
+    display: inline-block;
+    flex: 0.5;
+    border-radius: 15px;
+    border: 1px solid #EBEBEB;
+    padding: 10px;
+    outline: none;
+}
+
+.form input::placeholder {
+    color: #1E1C24;
+    opacity: 0.36;
+}
+
+.form a {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #525FFB;
+    border-radius: 15px;
+    padding: 12px 18px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.branding img {
+    display: block;
+    max-width: 600px;
+}

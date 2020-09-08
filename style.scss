@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    font-family: Poppins;
+}
+
+.bg {
+    background: url("images/bg.png") no-repeat;
+    background-size: cover;
+    height: 3400px;
+}
+
+@mixin flexItemsCenter($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import "_header.scss";
+@import "_footer.scss";
+@import "_body.scss";
