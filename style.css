@@ -26,7 +26,7 @@ body, html {
 
 .header h1 {
   color: #525FFB;
-  font-size: 22px;
+  font-size: 30px;
   text-transform: capitalize;
   font-weight: 700;
   cursor: pointer;
@@ -40,9 +40,14 @@ body, html {
   color: #525FFB;
   border: 1px solid #525FFB;
   border-radius: 15px;
-  padding: 8px 10px;
+  padding: 10px 14px;
   font-size: 12px;
   letter-spacing: 0.6px;
+  font-weight: 500;
+}
+
+img {
+  object-fit: cover;
 }
 
 .section {
@@ -83,7 +88,7 @@ body, html {
   flex: 0.5;
   border-radius: 15px;
   border: 1px solid #EBEBEB;
-  padding: 10px;
+  padding: 13px;
   outline: none;
 }
 
@@ -92,14 +97,14 @@ body, html {
   opacity: 0.36;
 }
 
-.form a {
+.link, .form a {
   display: inline-block;
   text-decoration: none;
   color: aliceblue;
   background-color: #525FFB;
   border-radius: 15px;
-  padding: 12px 18px;
-  font-size: 12px;
+  padding: 14px 22px;
+  font-size: 14px;
   margin-left: 20px;
 }
 
@@ -133,6 +138,110 @@ body, html {
 
 .section__content--modifier {
   margin-top: 100px;
+}
+
+.component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: unset;
+}
+
+.component img {
+  max-width: 570px;
+  display: block;
+}
+
+.component__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  flex: 0.95;
+}
+
+.component__content h3 {
+  color: #1E1C24;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.component__content p {
+  color: #B1AAAA;
+  line-height: 1.4;
+}
+
+.component__content a {
+  text-transform: capitalize;
+  margin-left: 0;
+}
+
+.reverse-component {
+  flex-direction: row-reverse;
+}
+
+.icons svg:last-child {
+  margin-left: 30px;
+}
+
+.subcomponent h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1E1C24;
+}
+
+.subcomponent__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subcomponent__content h4 {
+  text-transform: capitalize;
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #525FFB;
+}
+
+.faces {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faces--modifier {
+  padding-left: 170px;
+  display: block;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.faces--modifier-2 {
+  padding-left: 0;
+  padding-right: 170px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact input {
+  flex: 0.2;
 }
 
 /*# sourceMappingURL=style.css.map */
